@@ -65,6 +65,18 @@
       transform: translateX(0);
     }
   }
+
+  @keyframes spotlight {
+    0% {
+      opacity: 0;
+      transform: translate(-72%, -62%) scale(0.5);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -40%) scale(1);
+    }
+  }
 }
 
 @layer utilities {
@@ -76,44 +88,63 @@
     animation: marquee-reverse 30s linear infinite;
   }
 
+  .animate-spotlight {
+    animation: spotlight 2s ease .75s 1 forwards;
+  }
+
+  /* Aceternity / Sharp Theme Utilities */
   .glass {
-    @apply bg-white/5 backdrop-blur-lg border border-white/10;
+    @apply bg-black/40 backdrop-blur-md border border-white/10;
   }
 
   .glass-card {
-    @apply bg-card/50 backdrop-blur-md border border-border/50;
+    @apply bg-zinc-900/50 backdrop-blur-md border border-white/10 hover:border-blue-500/50 transition-colors duration-300;
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-zinc-400;
   }
 
   .text-gradient-primary {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300;
   }
 }
 
 :root {
+  /* Deep Black & Electric Blue Theme */
   --background: hsl(240 10% 3.9%);
+  /* Keep dark base, or go darker: hsl(0 0% 0%) */
   --foreground: hsl(0 0% 98%);
+
   --card: hsl(240 10% 3.9%);
   --card-foreground: hsl(0 0% 98%);
+
   --popover: hsl(240 10% 3.9%);
   --popover-foreground: hsl(0 0% 98%);
-  --primary: hsl(263.4 70% 50.4%);
-  --primary-foreground: hsl(210 40% 98%);
+
+  --primary: hsl(217 91% 60%);
+  /* Electric Blue */
+  --primary-foreground: hsl(0 0% 100%);
+
   --secondary: hsl(240 3.7% 15.9%);
   --secondary-foreground: hsl(0 0% 98%);
+
   --muted: hsl(240 3.7% 15.9%);
   --muted-foreground: hsl(240 5% 64.9%);
+
   --accent: hsl(240 3.7% 15.9%);
   --accent-foreground: hsl(0 0% 98%);
+
   --destructive: hsl(0 62.8% 30.6%);
   --destructive-foreground: hsl(0 0% 98%);
+
   --border: hsl(240 3.7% 15.9%);
   --input: hsl(240 3.7% 15.9%);
-  --ring: hsl(240 4.9% 83.9%);
-  --radius: 0.75rem;
+  --ring: hsl(217 91% 60%);
+  /* Match Primary */
+
+  --radius: 0rem;
+  /* Sharp borders */
 }
 
 @layer base {

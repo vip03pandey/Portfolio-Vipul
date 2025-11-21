@@ -15,11 +15,11 @@ const skills = {
 
 export function Skills() {
     return (
-        <Section id="skills" className="overflow-hidden">
+        <Section id="skills" className="overflow-hidden bg-black">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Technical Skills</h2>
-                    <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">Technical Skills</h2>
+                    <p className="max-w-[700px] text-neutral-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                         A comprehensive toolkit that enables me to build robust and scalable solutions.
                     </p>
                 </div>
@@ -30,18 +30,18 @@ export function Skills() {
                 <div className="relative flex overflow-hidden">
                     <div className="animate-marquee flex gap-4 whitespace-nowrap py-2">
                         {[...skills["Programming Languages"], ...skills["Frontend Technologies"]].map((skill, i) => (
-                            <Badge key={`r1-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r1-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {/* Duplicate for seamless loop */}
                         {[...skills["Programming Languages"], ...skills["Frontend Technologies"]].map((skill, i) => (
-                            <Badge key={`r1-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r1-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Programming Languages"], ...skills["Frontend Technologies"]].map((skill, i) => (
-                            <Badge key={`r1-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r1-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
@@ -52,17 +52,17 @@ export function Skills() {
                 <div className="relative flex overflow-hidden">
                     <div className="animate-marquee-reverse flex gap-4 whitespace-nowrap py-2">
                         {[...skills["Backend Technologies"], ...skills["Databases"]].map((skill, i) => (
-                            <Badge key={`r2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Backend Technologies"], ...skills["Databases"]].map((skill, i) => (
-                            <Badge key={`r2-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r2-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Backend Technologies"], ...skills["Databases"]].map((skill, i) => (
-                            <Badge key={`r2-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r2-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
@@ -73,17 +73,17 @@ export function Skills() {
                 <div className="relative flex overflow-hidden">
                     <div className="animate-marquee flex gap-4 whitespace-nowrap py-2">
                         {[...skills["Tools & Cloud"], ...skills["AI/ML Technologies"]].map((skill, i) => (
-                            <Badge key={`r3-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r3-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Tools & Cloud"], ...skills["AI/ML Technologies"]].map((skill, i) => (
-                            <Badge key={`r3-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r3-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Tools & Cloud"], ...skills["AI/ML Technologies"]].map((skill, i) => (
-                            <Badge key={`r3-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-secondary/50 hover:bg-secondary/80 border border-white/5">
+                            <Badge key={`r3-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}

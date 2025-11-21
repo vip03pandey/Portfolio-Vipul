@@ -18,7 +18,7 @@ export function Contact() {
                 <div className="mx-auto max-w-md">
                     <Card className="glass-card border-border/50">
                         <CardContent className="p-6 flex flex-col gap-4">
-                            <Button size="lg" className="w-full gap-2" asChild>
+                            <Button size="lg" className="w-full gap-2 bg-blue-500 hover:bg-blue-600 text-white border-none" asChild>
                                 <a href="mailto:vipul03pandey@gmail.com">
                                     <Mail className="h-4 w-4" /> Say Hello
                                 </a>
