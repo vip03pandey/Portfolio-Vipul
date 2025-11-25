@@ -48,9 +48,12 @@ export function Header() {
                             {item.name}
                         </a>
                     ))}
-                    <Button size="sm" asChild>
-                        <a href="mailto:vipul03pandey@gmail.com">Hire Me</a>
-                    </Button>
+                    <a
+                        href="mailto:vipul03pandey@gmail.com"
+                        className="inline-flex h-9 items-center justify-center rounded-md border border-neutral-800 bg-neutral-950 px-4 py-2 text-sm font-medium text-neutral-300 shadow-sm hover:bg-neutral-800 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 transition-colors"
+                    >
+                        Hire Me
+                    </a>
                 </nav>
 
                 {/* Mobile Nav Toggle */}
@@ -74,9 +77,12 @@ export function Header() {
                                 {item.name}
                             </a>
                         ))}
-                        <Button size="sm" className="w-full" asChild>
-                            <a href="mailto:vipul03pandey@gmail.com">Hire Me</a>
-                        </Button>
+                        <a
+                            href="mailto:vipul03pandey@gmail.com"
+                            className="inline-flex h-9 w-full items-center justify-center rounded-md border border-neutral-800 bg-neutral-950 px-4 py-2 text-sm font-medium text-neutral-300 shadow-sm hover:bg-neutral-800 hover:text-white focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 transition-colors"
+                        >
+                            Hire Me
+                        </a>
                     </div>
                 )}
             </div>

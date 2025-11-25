@@ -38,11 +38,11 @@ export function Experience() {
                             <div className="hidden md:block absolute left-[50%] top-0 bottom-0 w-px bg-neutral-800 -translate-x-1/2" />
 
                             <div className="relative z-10">
-                                <Card className="glass-card border-neutral-800 bg-neutral-900/50 rounded-none hover:border-blue-500/50 transition-all duration-300">
+                                <Card className="glass-card border-neutral-800 bg-neutral-900/50 rounded-none hover:border-yellow-500/50 transition-all duration-300">
                                     <CardHeader>
                                         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                                             <div className="flex items-center gap-2">
-                                                <div className="p-2 rounded-none bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                                                <div className="p-2 rounded-none bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">
                                                     <Briefcase className="h-4 w-4" />
                                                 </div>
                                                 <div>
@@ -50,7 +50,7 @@ export function Experience() {
                                                     <CardDescription className="text-base font-medium text-neutral-400">{exp.company}</CardDescription>
                                                 </div>
                                             </div>
-                                            <div className="text-sm text-blue-300 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-none w-fit">
+                                            <div className="text-sm text-yellow-300 bg-yellow-500/10 border border-yellow-500/20 px-3 py-1 rounded-none w-fit">
                                                 {exp.period}
                                             </div>
                                         </div>

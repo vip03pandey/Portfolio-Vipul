@@ -15,7 +15,7 @@ export function About() {
                 <div className="grid gap-12 lg:grid-cols-2 items-center">
                     <div className="space-y-4 text-neutral-400 text-lg">
                         <p>
-                            I am a dedicated <span className="text-blue-400 font-semibold">Full Stack Developer</span> with a strong foundation in modern web technologies. My journey began with a curiosity for how things work, which evolved into a passion for building efficient and scalable applications.
+                            I am a dedicated <span className="text-yellow-400 font-semibold">Full Stack Developer</span> with a strong foundation in modern web technologies. My journey began with a curiosity for how things work, which evolved into a passion for building efficient and scalable applications.
                         </p>
                         <p>
                             I specialize in the <span className="text-white font-medium">MERN stack</span> (MongoDB, Express.js, React, Node.js) and have a keen interest in <span className="text-white font-medium">Artificial Intelligence</span>. I love exploring new tools and frameworks to stay ahead in the rapidly evolving tech landscape.
@@ -24,13 +24,13 @@ export function About() {
                             When I'm not coding, you can find me exploring new places, reading tech blogs, or experimenting with new AI models.
                         </p>
                     </div>
-                    <Card className="glass-card border-neutral-800 bg-neutral-900/50 rounded-none p-6 hover:border-blue-500/50 transition-all duration-300">
+                    <Card className="glass-card border-neutral-800 bg-neutral-900/50 rounded-none p-6 hover:border-yellow-500/50 transition-all duration-300">
                         <CardContent className="p-0 space-y-6">
                             <h3 className="text-xl font-bold text-white mb-4 border-b border-neutral-800 pb-2">Key Highlights</h3>
                             <div className="grid gap-4">
                                 <div className="flex items-start gap-3">
-                                    <div className="mt-1 p-1 bg-blue-500/10 rounded-none border border-blue-500/20">
-                                        <Code2 className="h-5 w-5 text-blue-400" />
+                                    <div className="mt-1 p-1 bg-yellow-500/10 rounded-none border border-yellow-500/20">
+                                        <Code2 className="h-5 w-5 text-yellow-400" />
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-white">Full Stack Development</h4>
@@ -38,8 +38,8 @@ export function About() {
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-3">
-                                    <div className="mt-1 p-1 bg-blue-500/10 rounded-none border border-blue-500/20">
-                                        <Brain className="h-5 w-5 text-blue-400" />
+                                    <div className="mt-1 p-1 bg-yellow-500/10 rounded-none border border-yellow-500/20">
+                                        <Brain className="h-5 w-5 text-yellow-400" />
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-white">AI Integration</h4>
@@ -47,8 +47,8 @@ export function About() {
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-3">
-                                    <div className="mt-1 p-1 bg-blue-500/10 rounded-none border border-blue-500/20">
-                                        <Rocket className="h-5 w-5 text-blue-400" />
+                                    <div className="mt-1 p-1 bg-yellow-500/10 rounded-none border border-yellow-500/20">
+                                        <Rocket className="h-5 w-5 text-yellow-400" />
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-white">Performance Optimization</h4>

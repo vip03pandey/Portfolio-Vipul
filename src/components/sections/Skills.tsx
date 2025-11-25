@@ -30,18 +30,18 @@ export function Skills() {
                 <div className="relative flex overflow-hidden">
                     <div className="animate-marquee flex gap-4 whitespace-nowrap py-2">
                         {[...skills["Programming Languages"], ...skills["Frontend Technologies"]].map((skill, i) => (
-                            <Badge key={`r1-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r1-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {/* Duplicate for seamless loop */}
                         {[...skills["Programming Languages"], ...skills["Frontend Technologies"]].map((skill, i) => (
-                            <Badge key={`r1-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r1-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Programming Languages"], ...skills["Frontend Technologies"]].map((skill, i) => (
-                            <Badge key={`r1-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r1-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
@@ -52,17 +52,17 @@ export function Skills() {
                 <div className="relative flex overflow-hidden">
                     <div className="animate-marquee-reverse flex gap-4 whitespace-nowrap py-2">
                         {[...skills["Backend Technologies"], ...skills["Databases"]].map((skill, i) => (
-                            <Badge key={`r2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Backend Technologies"], ...skills["Databases"]].map((skill, i) => (
-                            <Badge key={`r2-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r2-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Backend Technologies"], ...skills["Databases"]].map((skill, i) => (
-                            <Badge key={`r2-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r2-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
@@ -73,17 +73,17 @@ export function Skills() {
                 <div className="relative flex overflow-hidden">
                     <div className="animate-marquee flex gap-4 whitespace-nowrap py-2">
                         {[...skills["Tools & Cloud"], ...skills["AI/ML Technologies"]].map((skill, i) => (
-                            <Badge key={`r3-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r3-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Tools & Cloud"], ...skills["AI/ML Technologies"]].map((skill, i) => (
-                            <Badge key={`r3-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r3-dup-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}
                         {[...skills["Tools & Cloud"], ...skills["AI/ML Technologies"]].map((skill, i) => (
-                            <Badge key={`r3-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-blue-500/20 text-neutral-300 rounded-none">
+                            <Badge key={`r3-dup2-${i}`} variant="secondary" className="text-lg py-2 px-4 bg-neutral-900/50 hover:bg-neutral-800 border border-yellow-500/20 text-neutral-300 rounded-none">
                                 {skill}
                             </Badge>
                         ))}

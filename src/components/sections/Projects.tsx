@@ -12,7 +12,7 @@ const projects = [
         header: (
             <div className="flex flex-1 w-full h-full min-h-[10rem] rounded-none overflow-hidden relative">
                 <Image
-                    src="/projects/stylenest.png"
+                    src="/projects/ecommerce.png"
                     alt="StyleNest E-Commerce"
                     fill
                     className="object-cover object-center group-hover/bento:scale-105 transition-transform duration-200"
@@ -30,7 +30,7 @@ const projects = [
         header: (
             <div className="flex flex-1 w-full h-full min-h-[10rem] rounded-none overflow-hidden relative">
                 <Image
-                    src="/projects/chatpdf.png"
+                    src="/projects/chat-pdf.png"
                     alt="ChatPDF AI Assistant"
                     fill
                     className="object-cover object-center group-hover/bento:scale-105 transition-transform duration-200"
@@ -48,7 +48,7 @@ const projects = [
         header: (
             <div className="flex flex-1 w-full h-full min-h-[10rem] rounded-none overflow-hidden relative">
                 <Image
-                    src="/projects/openscroll.png"
+                    src="/projects/blog.png"
                     alt="Open Scroll Blog"
                     fill
                     className="object-cover object-center group-hover/bento:scale-105 transition-transform duration-200"
@@ -82,16 +82,16 @@ export function Projects() {
                                     <span className="text-neutral-400 text-sm">{project.description}</span>
                                     <div className="flex flex-wrap gap-2">
                                         {project.tech.map((t) => (
-                                            <Badge key={t} variant="outline" className="text-[10px] border-blue-500/20 bg-blue-500/5 text-blue-200 rounded-none">
+                                            <Badge key={t} variant="outline" className="text-[10px] border-yellow-500/20 bg-yellow-500/5 text-yellow-200 rounded-sm">
                                                 {t}
                                             </Badge>
                                         ))}
                                     </div>
                                     <div className="flex gap-3 mt-2">
-                                        <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="text-xs text-neutral-400 hover:text-blue-400 flex items-center gap-1 transition-colors">
+                                        <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="text-xs text-neutral-400 hover:text-primary flex items-center gap-1 transition-colors">
                                             <Github className="h-3 w-3" /> Code
                                         </a>
-                                        <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="text-xs text-neutral-400 hover:text-blue-400 flex items-center gap-1 transition-colors">
+                                        <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="text-xs text-neutral-400 hover:text-primary flex items-center gap-1 transition-colors">
                                             <ExternalLink className="h-3 w-3" /> Live
                                         </a>
                                     </div>
